@@ -1,0 +1,266 @@
+/* SOCIAL MEDIAS*/
+#sc{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+}
+#sc>a{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  margin: 5px 1em 5px 0px;
+  text-align: center;
+}
+#sc>a:hover{
+  transition: .2s;
+  color: #2ab093;
+}
+
+/* MENU */
+#menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2ab093 ;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color: white;
+  margin: 7px;
+  padding: 5px;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+#navbar-ul{
+  margin-right: 10px;
+}
+#navbar-ul li{
+  display: inline-block;
+}
+.navbar-a{
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-decoration: none;
+  margin: 7px;
+}
+.navbar-a:hover{
+  transition: .2s;
+  color: black;
+}
+
+
+/*GRID SECTION*/
+#grid{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 15px;
+  display: grid;
+  grid-auto-rows: minmax(180px, auto);
+  grid-gap: 10px;
+}
+#grid .a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  grid-column: 1/5;
+  grid-row: 1/4;
+  text-decoration: none;
+
+  /*image background*/
+  background-image: url("https://cdn.mos.cms.futurecdn.net/64QiDTg3L642ATQTcitdjk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#grid .a h1{
+  font-size: 50px;
+  text-shadow: 3px 3px black;
+}
+#grid .b,.c,.d,.e{
+  text-align: center;
+  height: 300px;
+}
+
+#grid .b{
+  background-image: url("https://mk0camerajabberhe53n.kinstacdn.com/wp-content/uploads/2019/07/ThinkTank_MindShift_UltraLight_36L_4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+#grid .c{
+  background-image: url("https://s.studiobinder.com/wp-content/uploads/2015/04/Best-Sigma-Camera-Lenses-Header-StudioBinder.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+#grid .d{
+  background-image: url("https://upgradedpoints.com/wp-content/uploads/2019/04/camera-tripod.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  text-decoration: none;
+}
+
+#grid .e{
+  background-image: url("https://mk0camerajabberhe53n.kinstacdn.com/wp-content/uploads/2018/09/How_to_set-up_Nikon_DSLRs_for_wireless_flash__PC27018.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+}
+
+#grid .a:hover{
+  opacity: 0.9;
+}
+#grid .b:hover{
+  opacity: 0.9;
+}
+#grid .c:hover{
+opacity: .9;
+}
+#grid .d:hover{
+  opacity: 0.9;
+}
+#grid .e:hover{
+  opacity: 0.9;
+}
+
+.b .h2-b{
+  color:white;
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+
+}
+.c .h2-c{
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+
+}
+.d .h2-d{
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+
+}
+.e .h2-e{
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+
+}
+
+/*FOOTER*/
+#footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+#footer>div a{
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  font-size: 30px;
+}
+#footer div a:hover{
+  transition: .2s;
+  color:#2ab093;
+  
+}
+#footer div .fa-twitter:hover{
+  transition: 2.s;
+  padding-right:3px;
+}
+#footer div .fa-codepen:hover{
+  transition: 2.s;
+  padding-right:3px;
+  padding-left:3px;
+}
+#footer div .fa-github:hover{
+  transition: 2.s;
+  padding-left:3px;
+}
+
+#footer>p{
+  color: white;
+  font-size: 20px;
+}
+#footer>p a{
+  text-decoration: none;
+  color: white;
+}
+#footer>p a:hover{
+  transition: .2s;
+  color:#2ab093;
+}
+
+html body{
+background: rgb(0,0,0);
+background: linear-gradient(30deg, rgba(0,0,0,1) 1%, rgba(19,19,19,1) 59%, rgba(47,47,47,1) 100%);
+  margin: 0;
+}
+
+/* THIS IS WHERE THE MEDIAS STARTS*/
+
+/*MENU*/
+
+
+/*GRID*/
+@media only screen and (max-width: 1284px){
+  #grid{
+    grid-auto-rows: minmax(100px, auto);
+    
+  }
+}
+
+@media only screen and (max-width: 720px){
+  #grid{
+    grid-auto-rows: minmax(100px, auto);
+  }
+  #grid .a h1{
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 640px){
+  #grid .b,.c,.e,.d{
+    grid-column: 1/5;
+    height: 150px;
+  }
+  #grid{
+        grid-auto-rows: minmax(50px, auto);
+  }
+}
+
+
+
+/*FOOTER*/
